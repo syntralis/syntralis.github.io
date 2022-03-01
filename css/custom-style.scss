@@ -1,0 +1,21 @@
+$pm: #4caed1;
+$tr: all ease .3s;
+.btn--default, .btn--primary, .contact--social li a, #backToTop .btn--default {
+  transition: $tr;
+  &:hover {
+    background: $pm;
+    border-color: $pm;
+    color: #fff;
+  }
+}
+
+.header--nav .nav li a:before {
+  bottom: 5px;
+  background: $pm;
+}
+
+@media all and (max-width: 768px) {
+  .banner--content {
+    width: 100%;
+  }
+}

@@ -1,0 +1,22 @@
+.btn--default, .btn--primary, .contact--social li a, #backToTop .btn--default {
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.btn--default:hover, .btn--primary:hover, .contact--social li a:hover, #backToTop .btn--default:hover {
+  background: #4caed1;
+  border-color: #4caed1;
+  color: #fff;
+}
+
+.header--nav .nav li a:before {
+  bottom: 5px;
+  background: #4caed1;
+}
+
+@media all and (max-width: 768px) {
+  .banner--content {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=custom-style.css.map */
